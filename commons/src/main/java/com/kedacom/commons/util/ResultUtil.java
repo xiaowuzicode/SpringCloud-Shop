@@ -5,6 +5,7 @@ import com.kedacom.commons.api.Result;
 public class ResultUtil {
 
     public static Result success(Object object){
+        System.out.println("hhhh");
         Result result = new Result(0,"成功",object);
         return result;
     }
